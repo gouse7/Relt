@@ -1,0 +1,23 @@
+{
+  "name": "reltjs",
+  "version": "1.0.20",
+  "type": "module",
+  "description": "Lightweight, Notion inspired Datetime Parser, formater, with Timezones",
+  "main": "src/index.d.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.d.js"
+  },
+  "size-limit": [
+    {
+      "path": "src",
+      "limit": "10 kB"
+    }
+  ],
+  "author": "Gouse Mohiddin - MJ",
+  "license": "ISC",
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^8.2.4",
+    "size-limit": "^8.2.4"
+  }
+}
